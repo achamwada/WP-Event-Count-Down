@@ -47,7 +47,7 @@ function app_init(){
 	add_options_page( "Day Time counter", "Day Time counter Settings", "edit_posts", "day_time_counter", "counter_search" );
 }
 
-add_action( 'init', 'app_init' );
+add_action( 'admin_init', 'app_init' );
 
 
 function counter_search(){
