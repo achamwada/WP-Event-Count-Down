@@ -44,15 +44,15 @@ add_filter( 'nav_menu_link_attributes', 'add_specific_menu_atts', 10, 3 );
 
 function app_init(){
 
-	add_options_page( "Day Time counter", "Day Time counter Settings", "edit_posts", "day_time_counter", "counter_search" );
+	add_options_page( "Day Time counter", "Day Time counter Settings", "manage_options", "day_time_counter", "counter_search" );
 }
 
-add_action( 'admin_init', 'app_init' );
+add_action( 'admin_menu', 'app_init' );
 
 
 function counter_search(){
 
-	if(!current_user_can("edit_posts")){
+	if(!current_user_can("manage_options")){
 		wp_die("Can not view this page");
 
 	}else{
