@@ -143,7 +143,7 @@ function add_specific_menu_attsq( $atts, $item, $args ) {
 						<div class="inside">
 						<!--<h2><?php //esc_attr_e( 'Title Day Countdown', 'wp_admin_style' ); ?></h2>-->
 							<p><?php esc_attr_e( 'This plugin allows you to select the menu navigation you want to have a countdown on', 'wp_admin_style' ); ?></p>
-							<img src="http://www.cbronline.com/wp-content/uploads/2016/11/index_logo_progressive.jpg" style="width: 58%; margin-left: 3em;" />
+							<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAd7AAAAJDI4YWI2Y2RjLTFlZDgtNDU2Ni1hMTMwLTI1MWM2MzE3ZjVlNw.jpg" style="width: 58%; margin-left: 3em;" />
 
 						</div>
 						<!-- .inside -->
